@@ -1,0 +1,64 @@
+.rect1{
+    height: 50px;
+    margin-left: 30%;
+    width: 80px;
+    border-radius: 4px;
+    border:3px solid rgba(123, 234, 49, 0.779);
+}
+.rect2{
+    margin-left: 350%;
+    height: 50px;
+    width: 80px;
+    border-radius: 7px;
+    border:3px solid rgba(123, 234, 49, 0.779);
+}
+.rect3{
+    margin-left: 350%;
+    height: 50px;
+    width: 80px;
+    border-radius: 15px;
+    border:3px solid rgba(123, 234, 49, 0.779);
+}
+.rect4{
+    height: 50px;
+    margin-left: 30%;
+    width: 80px;
+    border-radius: 10px;
+    border:3px solid rgba(123, 234, 49, 0.779);
+}
+.rect5{
+    margin-left: 350%;
+    height: 50px;
+    width: 80px;
+    border-radius: 2x;
+    border:3px solid rgba(123, 234, 49, 0.779);
+}
+.rect6{
+    margin-left: 350%;
+    height: 50px;
+    width: 80px;
+    border-radius: 13px;
+    border:3px solid rgba(123, 234, 49, 0.779);
+}
+.rect7{
+    height: 50px;
+    margin-left: 30%;
+    width: 80px;
+    border-radius: 1000px;
+    border:3px solid rgba(123, 234, 49, 0.779);
+}
+.rect8{
+    margin-left: 350%;
+    height: 50px;
+    width: 80px;
+    border-radius: 3x;
+    border:3px solid rgba(123, 234, 49, 0.779);
+}
+.rect9{
+    margin-left: 350%;
+    height: 50px;
+    width: 80px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border:3px solid rgba(123, 234, 49, 0.779);
+}

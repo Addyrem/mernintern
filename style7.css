@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(156, 25, 77);
+    color: white;
+    
+}
+table{
+    background-color: rgba(113, 25, 51, 0.76);
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-spacing: 5px;
+    margin-left: 100px;
+}
+.reg{
+    color: black;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    width: 285% !important;
+}
+.gen{
+    width: 12px; /* Set the width and height as needed */
+    height: 12px;
+    border-radius: 90%;
+    border: none; /* This makes the button round */
+}
+input{
+    font-size: x-small;
+    border: none;
+}
+.add{
+    height: 25px;
+}
+form{
+    padding: auto;
+}
+select{
+    border: none;
+    font-size: xx-small;
+}

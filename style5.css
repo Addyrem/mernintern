@@ -1,0 +1,41 @@
+body{
+    background-color: yellow ;
+}
+.black{
+    padding:auto;
+    display: inline;
+    background-color: black;
+    padding: 1px;
+    color: black;
+}
+.but{
+    background-color: white;
+    display: inline-block;
+    width: 80px;
+    padding: 1px 5px 1px 3px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    float: left;
+    font-size: x-small;
+}
+.text{
+    color: rgb(130, 8, 94);
+    font-size: small;
+    text-align: justify;
+    margin-left: 15%;
+}
+hr{
+    border: dotted 1px;
+    height: 1em;
+    margin: 10px auto;
+    width: 100%;
+    margin-right: 20%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+}

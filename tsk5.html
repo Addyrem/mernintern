@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: blue;
+            text-align: center;
+        }
+        table,tr{
+            border:1px solid black;
+            border-collapse: collapse;
+            text-align:center;
+            
+        }
+        td{
+            border:1px solid black;
+            border-collapse: collapse;
+            width:80%;
+            text-align: left;
+        }
+
+        table{
+            width: 100%;
+        }
+        button{
+      text-align: center;
+    display: block; 
+    margin: 0 auto;
+}
+   
+    </style>
+</head>
+<body>
+    <h1>Registration form</h1>
+
+        <table >
+            
+        <tr>
+            <th> First Name:</th>
+            <td><input type="text" style="width: 99%;"></input></td>
+        </tr>   
+        <tr>
+            <th>Last Name</th>
+            <td><input type="text" style="width: 99%;"></input></td>
+
+        </tr> 
+        <tr>
+            <th>Email</th>
+            <td><input type="email" style="width: 99%;"></td>
+        </tr>
+        <tr>
+            <th>Password</th>
+            <td><input type="password" style="width: 99%;"></td>
+        </tr>
+        <tr>
+            <th>Re-enter Password</th>
+            <td><input type="password" style="width: 99%;"></td>
+        </tr>
+        <tr>
+            <th rowspan="2">Gender</th>
+            <td>  <input type="button" name="Male" id="" style="border-radius: 100%;">  Male</td>
+
+        </tr>
+        <tr>
+            
+            <td>  <input type="button" name="Fle" id="" style="border-radius: 100%;">  Female</td>
+        </tr>
+        <tr><th>Age</th>
+        <td><input type="number" name="" id="" style="width: 99%;"></td>
+    </tr>
+    <tr>
+        <th>Phone Number</th>
+        <td><input type="number" name="" id="" style="width: 99%;"></td>
+    </tr>
+    <tr>
+        <th>Address</th>
+        <td><input type="text" name="" id="" size="Address" style="font-size:100px ;" style="width: 99%;"></td>
+    </tr>
+    <tr>
+        <th>State</th>
+        <td><input type="text" name="" id=""style="width: 99%;"></td>
+    </tr>
+    <tr><th>Country</th>
+        <td><select name="Country" id="">
+            <option value="Choose your Country">Choose your Country</option>
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Canada">Canada</option>
+            <option value="Iceland">Iceland</option>
+            <option value="China">China</option>
+            <option value="Russia">Russia</option>
+            <option value="USA">USA</option>
+        </select></td>
+        </tr>
+        <tr>
+            <th>Languages known</th>
+            <td><input type="checkbox" name="Kannada" id="">Kannada
+            <input type="checkbox" name="Hindi" id="">Hindi
+        <input type="checkbox" name="English" id="">English
+    <input type="checkbox" name="Telugu" id="">Telugu</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: left;"><input type="checkbox" name="" id="">Hereby I declare that all the given details are true</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: right;">Login to <a href="ethnus.com">Ethnus</a> website</td>
+        </tr>
+        </table>
+        <br>
+        <div class="container">
+            <button type="Register">Register</button>
+          </div>
+        </body>
+</html>
